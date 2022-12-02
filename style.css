@@ -1,0 +1,98 @@
+.glavno{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}  
+.slika{
+    height: 330px;
+    width: 225px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.slika1{
+    height: 330px;
+    width: 230px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.slika2{
+    height: 330px;
+    width: 240px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.slika4{
+    height: 328px;
+    width: 225px;
+    border-radius: 3px;
+    transition: .5s;
+}
+.tekst2{
+    margin: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+}
+.tekst1{
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card{
+height: 328px;
+margin: 50px;
+margin-right: 40px;
+box-shadow: 3px 3px 3px 17px black;
+overflow: hidden;
+}
+.intro{
+    height: 50px;
+    width: 226px;
+    padding: 6px;
+    margin-bottom: -51.5px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    bottom: 240px;
+    transition: .5s;
+    align-items: center;
+    text-align: center;
+}
+.tekst{
+    margin: 5px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.paragraf{
+    font-size: 17px;
+    margin-top: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 70px;
+   
+    background: black;
+}
+.card:hover .paragraf{
+    opacity: 1;
+    visibility: visible
+}
+.card:hover .slika{
+    transform: scale(1.1) rotate(-3deg);
+}
+.card:hover .slika1{
+    transform: scale(1.1) rotate(-3deg);
+}
+.card:hover .slika2{
+    transform: scale(1.1) rotate(-3deg);
+}
